@@ -49,6 +49,9 @@ function mutateStars(inc){
     case -2:
       decrementBy2()
       break;
+      case -3:
+      decrementBy3()
+      break;
   }
 
   refreshStars()

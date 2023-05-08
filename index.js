@@ -11,9 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+const fullName = "Magnus Carlsen"
+const yearOfBirth = "1990"
+let hobby = ["Playing Chess"]
+let funFact = "I Don't understand Coding"
+const image = "https://www.slovenskenovice.si/media/images/20230215/1384469.036c57c0.fill-256x256.jpg"
 
 
 /**
@@ -29,9 +31,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2023 - yearOfBirth} years old`
+const hobbyString = `my hobby is ${hobby}`
 
 
 
@@ -45,14 +47,57 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  if (stars == 1) {
+    stars = 0
+  } 
+  
+  else {
+  stars = 0
+  stars++
+}
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  if (stars == 3) {
+    stars = 0
+  } 
+  
+  else {
+  stars = 0
+  stars+=3
+  }
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  if (stars == 2) {
+    stars = 0
+  } 
+  
+  else {
+    stars = 0
+    stars+=2
+  }
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  if (stars == 4) {
+    stars = 0
+  } 
+  
+  else {
+  stars = 0
+  stars+=4
+  }
+}
+function decrementBy3() {
+  // decrement stars by 2 👇🏻
+  if (stars == 5) {
+    stars = 0
+  } 
+  
+  else {
+  stars = 0
+  stars+=5
+  }
 }
